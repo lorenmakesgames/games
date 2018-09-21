@@ -1,0 +1,25 @@
+header h1, header a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Arial';
+    color: white;
+}
+header a {
+    margin-right: 5.5em;
+    text-align: right;
+}
+
+header a:hover {
+    color: #C8E6C9;
+}
+
+header h1 {
+    margin-right: 10em;
+    margin-left: 1em;
+    pointer-events: none;
+}
+
+header {
+    margin:0;
+    background-color: #4CAF50;
+}
