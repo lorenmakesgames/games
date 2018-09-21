@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Asteroid Trampoline</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebBuild.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+      <div class="header">
+          <h1>Loren Makes Games</h1>
+          <a href="/about/index.html">About</a>
+          <a href="/games/index.html">Games</a>
+          <a href="/contact/index.html">Contact</a>
+      </div>
+      <h1>Game name goes here!</h1>
+      <div class="game-details">
+          <p>Protect earth in this fast paced physics-based arcade game built in Unity3D!</p>
+          <p>Deflect asteroids hurtling towards the planet with a massive interplanetary space trampoline.</p>
+          <p>Bounce them into each other to destroy them and score points.</p>
+          <div class="screenshots">
+            <h3>Screenshots</h3>
+            <img src="/games/img/asteroidtrampoline.jpg"/>
+          </div>
+      </div>
+      <h1>Demo</h1>
+      <div class="webgl-content">
+        <div id="gameContainer" style="width: 1280px; height: 720px"></div>
+        <div class="footer">
+          <div class="webgl-logo"></div>
+          <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+          <div class="title">Asteroid Trampoline</div>
+        </div>
+      </div>
+  </body>
+</html>
