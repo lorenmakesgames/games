@@ -1,44 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>LorenMakesGames</title>
-    <link rel="stylesheet" href="css/styles.css"/>
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+</head>
+
+<body>
     <header>
         <h1 noselect>Loren Makes Games</h1>
-        <a href="/about/"><h2>About</h2></a>
-        <a href="/games/AsteroidTrampoline"><h2>Asteroid Trampoline</h2></a>
-        <a href="/games/"><h2>Games</h2></a>
-        <a href="/contact/"><h2>Contact</h2></a>
+        <div class="headerLinks">
+            <a href="/about/">
+                <h2>About</h2>
+            </a>
+            <a href="/games/AsteroidTrampoline">
+                <h2>Asteroid Trampoline</h2>
+            </a>
+            <a href="/games/">
+                <h2>Games</h2>
+            </a>
+            <a href="/contact/">
+                <h2>Contact</h2>
+            </a>
+        </div>
     </header>
     <div class="content">
         <h1>Games</h1>
         <p>Click on any of the links below to be taken to the corresponding game!</p>
         <div class="games">
-          <div class="row">
-              <div class="game_link">
-                  <a href="AsteroidTrampoline/"><img src="img/asteroidtrampoline.jpg"></a>
-                  <a href="AsteroidTrampoline/">Asteroid Trampoline</a>
-                  <p>September 2018</p>
-              </div>
-              <div class="game_link">
-                  <a href="BuzzwordBingo/index.html"><img src="img/buzzwordbingo.jpg"></a>
-                  <a href="">Buzzword Bingo</a>
-                  <p>June 2015</p>
-              </div>
-              <div class="game_link">
-                  <a href=""><img src="img/buzzwordbingo2.jpg"></a>
-                  <a href="">Game name</a>
-                  <p>Release Year</p>
-              </div>
-              <div class="game_link">
-                  <a href=""><img src="http://lorempixel.com/300/200"></a>
-                  <a href="">Game name</a>
-                  <p>Release Year</p>
-              </div>           
-          </div>
+            <div class="game_card">
+                <div class="card_image">
+                    <a href="AsteroidTrampoline/"><img src="img/asteroidtrampoline.jpg"></a>
+                </div>
+                <div class="card_info">
+                    <a href="AsteroidTrampoline/">Asteroid Trampoline</a>
+                    <p>Platforms: Web, PC</p>
+                    <p>September 2018</p>
+                </div>
+            </div>
+            <div class="game_card">
+                    <div class="card_image">
+                        <a href=""><img src="img/optumhack.jpg"></a>
+                    </div>
+                    <div class="card_info">
+                        <a href="AsteroidTrampoline/">Optum 2018 Global Hackathon Project</a>
+                        <p>Platforms: Android, iOS</p>
+                        <p>July 2018</p>
+                    </div>
+                </div>
+            <div class="game_card">
+                <div class="card_image">
+                    <a href="BuzzwordBingo/index.html"><img src="img/buzzwordbingo.jpg"></a>
+                </div>
+                <div class="card_info">
+                    <a href="">Buzzword Bingo</a>
+                    <p>Platforms: Web</p>
+                    <p>June 2015</p>
+                </div>
+            </div>
+            <div class="game_card">
+                <div class="card_image">
+                    <a href="BuzzwordBingo/index.html"><img src="img/buzzwordbingo2.jpg"></a>
+                </div>
+                <div class="card_info">
+                    <a href="">Buzzword Bingo V2</a>
+                    <p>Platforms: Web</p>
+                    <p>July 2015</p>
+                </div>
+            </div>
+            <div class="game_card">
+                <div class="card_image">
+                    <a href=""><img src="img/optumhack.jpg"></a>
+                </div>
+                <div class="card_info">
+                    <a href="">Untitled Game</a>
+                    <p>Coming Soon!</p>
+                </div>
+            </div>
         </div>
     </div>
-  </body>
+</body>
+
 </html>
