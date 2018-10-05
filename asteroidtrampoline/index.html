@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>LorenMakesGames</title>
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="Build/UnityLoader.js"></script>
+  <script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebBuild.json", {
+      onProgress: UnityProgress
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1 noselect>Loren Makes Games</h1>
+    <div class="headerLinks">
+      <a href="/about/">
+        <h2>About</h2>
+      </a>
+      <a href="/games/AsteroidTrampoline">
+        <h2>Asteroid Trampoline</h2>
+      </a>
+      <a href="/games/">
+        <h2>Games</h2>
+      </a>
+      <a href="/contact/">
+        <h2>Contact</h2>
+      </a>
+    </div>
+  </header>
+  <div class="content">
+    <h1>Asteroid Trampoline</h1>
+    <div class="game-details">
+      <div class="description">
+          <p>Protect earth in this fast paced physics-based arcade game built in Unity3D!</p>
+          <p>Deflect asteroids hurtling towards the planet with a massive interplanetary space trampoline.</p>
+          <p>Bounce them into each other to destroy them and score points.</p>
+      </div>
+      <!-- <h3>Screenshots</h3> -->
+      <div class="screenshots">
+        <div class="screenshot">
+            <img src="../img/asteroidtrampoline.jpg" />
+        </div>
+        <div class="screenshot">
+            <img src="../img/asteroidtrampoline2.jpg" />
+        </div>
+        <div class="screenshot">
+            <img src="../img/asteroidtrampoline3.jpg" />
+        </div>
+      </div>
+    </div>
+    <h1>Demo</h1>
+    <div class="game">
+        <div class="webgl-content">
+          <div id="gameContainer" style="width: 1280px; height: 720px"></div>
+          <div class="footer">
+            <div class="webgl-logo"></div>
+            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+            <div class="title">Asteroid Trampoline</div>
+          </div>
+        </div>  
+    </div>
+  </div>
+</body>
+
+</html>

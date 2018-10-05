@@ -1,0 +1,1504 @@
+/* line 198, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.flex {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box; }
+
+/* line 207, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.flex-column {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  box-sizing: border-box; }
+  /* line 213, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .flex-column > .flex,
+  .flex-column > .flex-content {
+    flex: 0 0 auto !important; }
+
+/* line 216, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.flex-content {
+  display: block;
+  flex: 1 1 0%;
+  box-sizing: border-box; }
+
+/* line 228, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.no-wrap {
+  flex-wrap: nowrap; }
+
+/* line 228, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.gutters {
+  margin-right: -0.5rem;
+  margin-left: -0.5rem; }
+  /* line 232, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .gutters > .flex,
+  .gutters > .flex-content {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-5 {
+  flex: 0 0 5%;
+  max-width: 5%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-10 {
+  flex: 0 0 10%;
+  max-width: 10%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-15 {
+  flex: 0 0 15%;
+  max-width: 15%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-20 {
+  flex: 0 0 20%;
+  max-width: 20%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-25 {
+  flex: 0 0 25%;
+  max-width: 25%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-30 {
+  flex: 0 0 30%;
+  max-width: 30%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-35 {
+  flex: 0 0 35%;
+  max-width: 35%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-40 {
+  flex: 0 0 40%;
+  max-width: 40%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-45 {
+  flex: 0 0 45%;
+  max-width: 45%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-50 {
+  flex: 0 0 50%;
+  max-width: 50%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-55 {
+  flex: 0 0 55%;
+  max-width: 55%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-60 {
+  flex: 0 0 60%;
+  max-width: 60%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-65 {
+  flex: 0 0 65%;
+  max-width: 65%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-70 {
+  flex: 0 0 70%;
+  max-width: 70%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-75 {
+  flex: 0 0 75%;
+  max-width: 75%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-80 {
+  flex: 0 0 80%;
+  max-width: 80%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-85 {
+  flex: 0 0 85%;
+  max-width: 85%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-90 {
+  flex: 0 0 90%;
+  max-width: 90%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-95 {
+  flex: 0 0 95%;
+  max-width: 95%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-100 {
+  flex: 0 0 100%;
+  max-width: 100%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-33 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-67 {
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%; }
+
+/* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-100 {
+  flex: 0 0 100%;
+  max-width: 100%; }
+
+/* line 111, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-self {
+  flex: 0 1 auto; }
+
+/* line 113, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.space-reset {
+  flex: 1 1 0% !important; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-5 {
+  margin-left: 5%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-10 {
+  margin-left: 10%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-15 {
+  margin-left: 15%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-20 {
+  margin-left: 20%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-25 {
+  margin-left: 25%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-30 {
+  margin-left: 30%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-35 {
+  margin-left: 35%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-40 {
+  margin-left: 40%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-45 {
+  margin-left: 45%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-50 {
+  margin-left: 50%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-55 {
+  margin-left: 55%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-60 {
+  margin-left: 60%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-65 {
+  margin-left: 65%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-70 {
+  margin-left: 70%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-75 {
+  margin-left: 75%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-80 {
+  margin-left: 80%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-85 {
+  margin-left: 85%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-90 {
+  margin-left: 90%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-95 {
+  margin-left: 95%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-100 {
+  margin-left: 100%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-33 {
+  margin-left: 33.33333%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-67 {
+  margin-left: 66.66667%; }
+
+/* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-100 {
+  margin-left: 100%; }
+
+/* line 126, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.offset-reset {
+  margin-left: 0 !important; }
+
+@media screen and (min-width: 30rem) {
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-5 {
+    flex: 0 0 5%;
+    max-width: 5%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-10 {
+    flex: 0 0 10%;
+    max-width: 10%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-15 {
+    flex: 0 0 15%;
+    max-width: 15%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-20 {
+    flex: 0 0 20%;
+    max-width: 20%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-25 {
+    flex: 0 0 25%;
+    max-width: 25%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-30 {
+    flex: 0 0 30%;
+    max-width: 30%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-35 {
+    flex: 0 0 35%;
+    max-width: 35%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-40 {
+    flex: 0 0 40%;
+    max-width: 40%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-45 {
+    flex: 0 0 45%;
+    max-width: 45%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-50 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-55 {
+    flex: 0 0 55%;
+    max-width: 55%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-60 {
+    flex: 0 0 60%;
+    max-width: 60%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-65 {
+    flex: 0 0 65%;
+    max-width: 65%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-70 {
+    flex: 0 0 70%;
+    max-width: 70%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-75 {
+    flex: 0 0 75%;
+    max-width: 75%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-80 {
+    flex: 0 0 80%;
+    max-width: 80%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-85 {
+    flex: 0 0 85%;
+    max-width: 85%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-90 {
+    flex: 0 0 90%;
+    max-width: 90%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-95 {
+    flex: 0 0 95%;
+    max-width: 95%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-100 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-33 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-67 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-100 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  /* line 111, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-self {
+    flex: 0 1 auto; }
+  /* line 113, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-small-reset {
+    flex: 1 1 0% !important; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-5 {
+    margin-left: 5%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-10 {
+    margin-left: 10%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-15 {
+    margin-left: 15%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-20 {
+    margin-left: 20%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-25 {
+    margin-left: 25%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-30 {
+    margin-left: 30%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-35 {
+    margin-left: 35%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-40 {
+    margin-left: 40%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-45 {
+    margin-left: 45%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-50 {
+    margin-left: 50%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-55 {
+    margin-left: 55%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-60 {
+    margin-left: 60%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-65 {
+    margin-left: 65%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-70 {
+    margin-left: 70%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-75 {
+    margin-left: 75%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-80 {
+    margin-left: 80%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-85 {
+    margin-left: 85%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-90 {
+    margin-left: 90%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-95 {
+    margin-left: 95%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-100 {
+    margin-left: 100%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-33 {
+    margin-left: 33.33333%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-67 {
+    margin-left: 66.66667%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-100 {
+    margin-left: 100%; }
+  /* line 126, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-small-reset {
+    margin-left: 0 !important; } }
+
+@media screen and (min-width: 48rem) {
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-5 {
+    flex: 0 0 5%;
+    max-width: 5%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-10 {
+    flex: 0 0 10%;
+    max-width: 10%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-15 {
+    flex: 0 0 15%;
+    max-width: 15%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-20 {
+    flex: 0 0 20%;
+    max-width: 20%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-25 {
+    flex: 0 0 25%;
+    max-width: 25%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-30 {
+    flex: 0 0 30%;
+    max-width: 30%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-35 {
+    flex: 0 0 35%;
+    max-width: 35%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-40 {
+    flex: 0 0 40%;
+    max-width: 40%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-45 {
+    flex: 0 0 45%;
+    max-width: 45%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-50 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-55 {
+    flex: 0 0 55%;
+    max-width: 55%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-60 {
+    flex: 0 0 60%;
+    max-width: 60%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-65 {
+    flex: 0 0 65%;
+    max-width: 65%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-70 {
+    flex: 0 0 70%;
+    max-width: 70%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-75 {
+    flex: 0 0 75%;
+    max-width: 75%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-80 {
+    flex: 0 0 80%;
+    max-width: 80%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-85 {
+    flex: 0 0 85%;
+    max-width: 85%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-90 {
+    flex: 0 0 90%;
+    max-width: 90%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-95 {
+    flex: 0 0 95%;
+    max-width: 95%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-100 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-33 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-67 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-100 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  /* line 111, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-self {
+    flex: 0 1 auto; }
+  /* line 113, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-medium-reset {
+    flex: 1 1 0% !important; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-5 {
+    margin-left: 5%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-10 {
+    margin-left: 10%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-15 {
+    margin-left: 15%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-20 {
+    margin-left: 20%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-25 {
+    margin-left: 25%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-30 {
+    margin-left: 30%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-35 {
+    margin-left: 35%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-40 {
+    margin-left: 40%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-45 {
+    margin-left: 45%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-50 {
+    margin-left: 50%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-55 {
+    margin-left: 55%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-60 {
+    margin-left: 60%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-65 {
+    margin-left: 65%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-70 {
+    margin-left: 70%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-75 {
+    margin-left: 75%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-80 {
+    margin-left: 80%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-85 {
+    margin-left: 85%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-90 {
+    margin-left: 90%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-95 {
+    margin-left: 95%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-100 {
+    margin-left: 100%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-33 {
+    margin-left: 33.33333%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-67 {
+    margin-left: 66.66667%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-100 {
+    margin-left: 100%; }
+  /* line 126, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-medium-reset {
+    margin-left: 0 !important; } }
+
+@media screen and (min-width: 62rem) {
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-5 {
+    flex: 0 0 5%;
+    max-width: 5%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-10 {
+    flex: 0 0 10%;
+    max-width: 10%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-15 {
+    flex: 0 0 15%;
+    max-width: 15%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-20 {
+    flex: 0 0 20%;
+    max-width: 20%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-25 {
+    flex: 0 0 25%;
+    max-width: 25%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-30 {
+    flex: 0 0 30%;
+    max-width: 30%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-35 {
+    flex: 0 0 35%;
+    max-width: 35%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-40 {
+    flex: 0 0 40%;
+    max-width: 40%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-45 {
+    flex: 0 0 45%;
+    max-width: 45%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-50 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-55 {
+    flex: 0 0 55%;
+    max-width: 55%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-60 {
+    flex: 0 0 60%;
+    max-width: 60%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-65 {
+    flex: 0 0 65%;
+    max-width: 65%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-70 {
+    flex: 0 0 70%;
+    max-width: 70%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-75 {
+    flex: 0 0 75%;
+    max-width: 75%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-80 {
+    flex: 0 0 80%;
+    max-width: 80%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-85 {
+    flex: 0 0 85%;
+    max-width: 85%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-90 {
+    flex: 0 0 90%;
+    max-width: 90%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-95 {
+    flex: 0 0 95%;
+    max-width: 95%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-100 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-33 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-67 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-100 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  /* line 111, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-self {
+    flex: 0 1 auto; }
+  /* line 113, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-large-reset {
+    flex: 1 1 0% !important; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-5 {
+    margin-left: 5%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-10 {
+    margin-left: 10%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-15 {
+    margin-left: 15%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-20 {
+    margin-left: 20%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-25 {
+    margin-left: 25%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-30 {
+    margin-left: 30%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-35 {
+    margin-left: 35%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-40 {
+    margin-left: 40%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-45 {
+    margin-left: 45%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-50 {
+    margin-left: 50%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-55 {
+    margin-left: 55%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-60 {
+    margin-left: 60%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-65 {
+    margin-left: 65%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-70 {
+    margin-left: 70%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-75 {
+    margin-left: 75%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-80 {
+    margin-left: 80%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-85 {
+    margin-left: 85%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-90 {
+    margin-left: 90%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-95 {
+    margin-left: 95%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-100 {
+    margin-left: 100%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-33 {
+    margin-left: 33.33333%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-67 {
+    margin-left: 66.66667%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-100 {
+    margin-left: 100%; }
+  /* line 126, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-large-reset {
+    margin-left: 0 !important; } }
+
+@media screen and (min-width: 75rem) {
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-5 {
+    flex: 0 0 5%;
+    max-width: 5%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-10 {
+    flex: 0 0 10%;
+    max-width: 10%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-15 {
+    flex: 0 0 15%;
+    max-width: 15%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-20 {
+    flex: 0 0 20%;
+    max-width: 20%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-25 {
+    flex: 0 0 25%;
+    max-width: 25%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-30 {
+    flex: 0 0 30%;
+    max-width: 30%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-35 {
+    flex: 0 0 35%;
+    max-width: 35%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-40 {
+    flex: 0 0 40%;
+    max-width: 40%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-45 {
+    flex: 0 0 45%;
+    max-width: 45%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-50 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-55 {
+    flex: 0 0 55%;
+    max-width: 55%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-60 {
+    flex: 0 0 60%;
+    max-width: 60%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-65 {
+    flex: 0 0 65%;
+    max-width: 65%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-70 {
+    flex: 0 0 70%;
+    max-width: 70%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-75 {
+    flex: 0 0 75%;
+    max-width: 75%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-80 {
+    flex: 0 0 80%;
+    max-width: 80%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-85 {
+    flex: 0 0 85%;
+    max-width: 85%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-90 {
+    flex: 0 0 90%;
+    max-width: 90%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-95 {
+    flex: 0 0 95%;
+    max-width: 95%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-100 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-33 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-67 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%; }
+  /* line 106, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-100 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  /* line 111, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-self {
+    flex: 0 1 auto; }
+  /* line 113, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .space-xlarge-reset {
+    flex: 1 1 0% !important; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-5 {
+    margin-left: 5%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-10 {
+    margin-left: 10%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-15 {
+    margin-left: 15%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-20 {
+    margin-left: 20%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-25 {
+    margin-left: 25%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-30 {
+    margin-left: 30%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-35 {
+    margin-left: 35%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-40 {
+    margin-left: 40%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-45 {
+    margin-left: 45%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-50 {
+    margin-left: 50%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-55 {
+    margin-left: 55%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-60 {
+    margin-left: 60%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-65 {
+    margin-left: 65%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-70 {
+    margin-left: 70%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-75 {
+    margin-left: 75%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-80 {
+    margin-left: 80%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-85 {
+    margin-left: 85%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-90 {
+    margin-left: 90%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-95 {
+    margin-left: 95%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-100 {
+    margin-left: 100%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-33 {
+    margin-left: 33.33333%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-67 {
+    margin-left: 66.66667%; }
+  /* line 122, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-100 {
+    margin-left: 100%; }
+  /* line 126, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .offset-xlarge-reset {
+    margin-left: 0 !important; } }
+
+/* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.justify-flex-start {
+  justify-content: flex-start; }
+
+/* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.justify-flex-end {
+  justify-content: flex-end; }
+
+/* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.justify-center {
+  justify-content: center; }
+
+/* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.justify-space-between {
+  justify-content: space-between; }
+
+/* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.justify-space-around {
+  justify-content: space-around; }
+
+/* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.align-flex-start {
+  align-items: flex-start; }
+
+/* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.align-flex-end {
+  align-items: flex-end; }
+
+/* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.align-center {
+  align-items: center; }
+
+/* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.align-space-between {
+  align-items: space-between; }
+
+/* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.align-space-around {
+  align-items: space-around; }
+
+/* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.align-stretch {
+  align-items: stretch; }
+
+/* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.order--5 {
+  order: -5; }
+
+/* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.order--4 {
+  order: -4; }
+
+/* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.order--3 {
+  order: -3; }
+
+/* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.order--2 {
+  order: -2; }
+
+/* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.order--1 {
+  order: -1; }
+
+/* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.order-0 {
+  order: 0; }
+
+/* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.order-1 {
+  order: 1; }
+
+/* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.order-2 {
+  order: 2; }
+
+/* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.order-3 {
+  order: 3; }
+
+/* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.order-4 {
+  order: 4; }
+
+/* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.order-5 {
+  order: 5; }
+
+/* line 169, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.order-reset {
+  order: 0 !important; }
+
+/* line 175, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.show.flex {
+  display: flex !important; }
+
+/* line 176, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.show.flex-content {
+  display: block !important; }
+
+/* line 177, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.hide {
+  display: none !important; }
+
+@media screen and (min-width: 30rem) {
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-small-flex-start {
+    justify-content: flex-start; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-small-flex-end {
+    justify-content: flex-end; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-small-center {
+    justify-content: center; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-small-space-between {
+    justify-content: space-between; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-small-space-around {
+    justify-content: space-around; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-small-flex-start {
+    align-items: flex-start; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-small-flex-end {
+    align-items: flex-end; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-small-center {
+    align-items: center; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-small-space-between {
+    align-items: space-between; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-small-space-around {
+    align-items: space-around; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-small-stretch {
+    align-items: stretch; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-small--5 {
+    order: -5; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-small--4 {
+    order: -4; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-small--3 {
+    order: -3; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-small--2 {
+    order: -2; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-small--1 {
+    order: -1; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-small-0 {
+    order: 0; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-small-1 {
+    order: 1; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-small-2 {
+    order: 2; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-small-3 {
+    order: 3; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-small-4 {
+    order: 4; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-small-5 {
+    order: 5; }
+  /* line 169, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-small-reset {
+    order: 0 !important; }
+  /* line 175, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .show-small.flex {
+    display: flex !important; }
+  /* line 176, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .show-small.flex-content {
+    display: block !important; }
+  /* line 177, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .hide-small {
+    display: none !important; } }
+
+@media screen and (min-width: 48rem) {
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-medium-flex-start {
+    justify-content: flex-start; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-medium-flex-end {
+    justify-content: flex-end; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-medium-center {
+    justify-content: center; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-medium-space-between {
+    justify-content: space-between; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-medium-space-around {
+    justify-content: space-around; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-medium-flex-start {
+    align-items: flex-start; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-medium-flex-end {
+    align-items: flex-end; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-medium-center {
+    align-items: center; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-medium-space-between {
+    align-items: space-between; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-medium-space-around {
+    align-items: space-around; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-medium-stretch {
+    align-items: stretch; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-medium--5 {
+    order: -5; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-medium--4 {
+    order: -4; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-medium--3 {
+    order: -3; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-medium--2 {
+    order: -2; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-medium--1 {
+    order: -1; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-medium-0 {
+    order: 0; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-medium-1 {
+    order: 1; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-medium-2 {
+    order: 2; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-medium-3 {
+    order: 3; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-medium-4 {
+    order: 4; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-medium-5 {
+    order: 5; }
+  /* line 169, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-medium-reset {
+    order: 0 !important; }
+  /* line 175, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .show-medium.flex {
+    display: flex !important; }
+  /* line 176, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .show-medium.flex-content {
+    display: block !important; }
+  /* line 177, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .hide-medium {
+    display: none !important; } }
+
+@media screen and (min-width: 62rem) {
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-large-flex-start {
+    justify-content: flex-start; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-large-flex-end {
+    justify-content: flex-end; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-large-center {
+    justify-content: center; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-large-space-between {
+    justify-content: space-between; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-large-space-around {
+    justify-content: space-around; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-large-flex-start {
+    align-items: flex-start; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-large-flex-end {
+    align-items: flex-end; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-large-center {
+    align-items: center; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-large-space-between {
+    align-items: space-between; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-large-space-around {
+    align-items: space-around; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-large-stretch {
+    align-items: stretch; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-large--5 {
+    order: -5; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-large--4 {
+    order: -4; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-large--3 {
+    order: -3; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-large--2 {
+    order: -2; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-large--1 {
+    order: -1; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-large-0 {
+    order: 0; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-large-1 {
+    order: 1; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-large-2 {
+    order: 2; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-large-3 {
+    order: 3; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-large-4 {
+    order: 4; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-large-5 {
+    order: 5; }
+  /* line 169, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-large-reset {
+    order: 0 !important; }
+  /* line 175, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .show-large.flex {
+    display: flex !important; }
+  /* line 176, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .show-large.flex-content {
+    display: block !important; }
+  /* line 177, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .hide-large {
+    display: none !important; } }
+
+@media screen and (min-width: 75rem) {
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-xlarge-flex-start {
+    justify-content: flex-start; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-xlarge-flex-end {
+    justify-content: flex-end; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-xlarge-center {
+    justify-content: center; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-xlarge-space-between {
+    justify-content: space-between; }
+  /* line 153, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .justify-xlarge-space-around {
+    justify-content: space-around; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-xlarge-flex-start {
+    align-items: flex-start; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-xlarge-flex-end {
+    align-items: flex-end; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-xlarge-center {
+    align-items: center; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-xlarge-space-between {
+    align-items: space-between; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-xlarge-space-around {
+    align-items: space-around; }
+  /* line 160, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .align-xlarge-stretch {
+    align-items: stretch; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-xlarge--5 {
+    order: -5; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-xlarge--4 {
+    order: -4; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-xlarge--3 {
+    order: -3; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-xlarge--2 {
+    order: -2; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-xlarge--1 {
+    order: -1; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-xlarge-0 {
+    order: 0; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-xlarge-1 {
+    order: 1; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-xlarge-2 {
+    order: 2; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-xlarge-3 {
+    order: 3; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-xlarge-4 {
+    order: 4; }
+  /* line 167, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-xlarge-5 {
+    order: 5; }
+  /* line 169, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .order-xlarge-reset {
+    order: 0 !important; }
+  /* line 175, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .show-xlarge.flex {
+    display: flex !important; }
+  /* line 176, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .show-xlarge.flex-content {
+    display: block !important; }
+  /* line 177, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .hide-xlarge {
+    display: none !important; } }
+
+/* line 247, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+html {
+  font-size: 16px; }
+
+/* line 251, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #444; }
+
+/* line 256, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+h1, h2, h3, h4 {
+  margin-bottom: .5rem;
+  font-weight: 300; }
+
+/* line 261, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+h2 {
+  font-size: 1.6rem; }
+
+/* line 265, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+h3 {
+  font-size: 1.3rem; }
+
+/* line 269, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-weight: 300; }
+
+/* line 276, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+code {
+  font-family: monospace, monospace;
+  color: darkorchid; }
+
+/* line 281, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0; }
+
+@media only screen and (min-width: 800px) {
+  /* line 290, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .container {
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh; } }
+
+/* line 298, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.docs-header {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid gainsboro; }
+
+/* line 307, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.docs {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+/* line 312, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.docs-header__title {
+  margin: 0;
+  font-size: 3rem; }
+
+/* line 317, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.attribution {
+  margin: 0;
+  color: darkcyan; }
+
+/* line 322, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.docs-group {
+  margin-bottom: 5.5rem; }
+  /* line 325, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .docs-group > p {
+    margin-bottom: 2.3rem; }
+
+/* line 330, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.docs-group__item {
+  margin-bottom: 5rem; }
+  /* line 333, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .docs-group__item > p {
+    margin-bottom: 2rem; }
+
+/* line 338, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.docs-grid-item {
+  padding: 4vw;
+  height: 20%;
+  width: 20%;
+  background-color: #EEE;
+  color: #121212;
+  box-shadow: inset 0 0 2px #BBB;
+  word-break: normal; }
+  /* line 347, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .docs-grid-item p {
+    margin: 0;
+    padding: 0; }
+
+/* line 353, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.docs-grid-item:hover {
+  box-shadow: inset 0 0 7px #2098d1; }
+
+@media only screen and (min-width: 800px) {
+  /* line 365, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .docs-grid-item {
+    padding: 4vh; } }
+
+/* line 370, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.docs-nested-grid-item {
+  padding: 1rem;
+  background-color: #BBB;
+  color: #121212;
+  box-shadow: inset 0 0 2px #DDD; }
+  /* line 375, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+  .docs-nested-grid-item p {
+    margin: 0; }
+
+/* line 380, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.docs-footnote {
+  margin-top: 1.5rem;
+  text-align: right;
+  font-style: italic;
+  color: #555; }
+
+/* line 387, C:/Users/lheubert/Documents/Buzzword Bingo Public/Buzzword-Bingo/flex.scss */
+.docs-footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #F5F5F5;
+  border-top: 1px solid gainsboro; }
+
+/*# sourceMappingURL=flex.css.map */
