@@ -128,14 +128,6 @@ header {
         pointer-events: none;
     }
 
-    .headerLinks {
-        display: flex;
-        margin: 0.5em;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        width: 100%;
-    }
-
     .games {
         display: flex;
         flex-flow: row wrap;
