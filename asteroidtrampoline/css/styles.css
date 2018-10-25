@@ -123,6 +123,17 @@ header {
     font-family: 'Montserrat', sans-serif;
 }
 
+@media screen and (-ms-high-contrast: active){
+    .header {
+        background-color: black;
+    }
+    body {
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+}
+
 @media only screen and (min-width: 768px){
 
     .headerLinks {
