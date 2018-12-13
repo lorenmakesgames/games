@@ -68,7 +68,6 @@ header {
     display: flex;
     flex-direction: column;
     width: 15em;
-    height: 10em;
     margin: 1em 0;
 }
 
@@ -77,6 +76,15 @@ header {
     width: 100%;
     border: 4px solid grey;
     border-radius: 10px;
+    height: 10em;
+    overflow: hidden;
+    display: flex;
+    align-content: flex-start;
+}
+
+.modal_image {
+    cursor: pointer;
+    width: 100%;
     overflow: hidden;
     display: flex;
     align-content: flex-start;
@@ -86,11 +94,11 @@ header {
     border-color: rgb(92, 92, 221);
 }
 
-.card_image img {
+.card_image img, .modal_image img {
     width: 100%;
 }
 
-.card_image a {
+.card_image a, .modal_image a{
     width: 100%;
 }
 
