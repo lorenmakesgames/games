@@ -79,27 +79,6 @@ header {
     margin-bottom: 1em;
 }
 
-/* .screenshots {
-    display: flex;
-    flex-flow: row wrap;
-    flex-grow: 1;
-    min-width: 100%;
-
-}
-
-.screenshot {
-    display: flex;
-    width: 49%;
-    max-height: 8em;
-    border: 2px solid white;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.screenshot img {
-    width: 100%;
-} */
-
 
 .game {
     display: flex;
