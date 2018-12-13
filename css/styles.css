@@ -40,7 +40,7 @@ header {
     margin: 0.5em;
     flex-flow: column wrap;
     justify-content: space-around;
-    width: 100%;
+    width: default;
 }
 
 .content h1 {
@@ -68,6 +68,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 15em;
+    height: 10em;
     border: 4px solid grey;
     border-radius: 10px;
     overflow: hidden;
@@ -75,6 +76,7 @@ header {
 }
 
 .card_image {
+    cursor: pointer;
     width: 100%;
     display: flex;
     align-content: flex-start;
@@ -85,6 +87,10 @@ header {
 }
 
 .card_image img {
+    width: 100%;
+}
+
+.card_image a {
     width: 100%;
 }
 
@@ -102,6 +108,49 @@ header {
 .card_info a, .card_info p {
     text-decoration: none;
 }
+
+.active {
+    background-color: rgb(101, 226, 105);
+}
+
+#jump {
+    text-decoration: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 20%;
+    top: 20%;
+    width: 60%;
+    height: 60%;
+    border: 5px solid #4CAF50;
+    border-radius: 25px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: white;
+    box-sizing: border-box;
+  }
+
+  .modal_content {
+    padding: 2%;
+  }
+
+  .modalActive {
+      display: block !important;
+  }
+
+  .close {
+    color: white;
+    position: absolute;
+    right: 2%;
+    top: 0.5%;
+    /* float: right; */
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
 
 @media screen and (-ms-high-contrast: active){
     .header {
@@ -143,5 +192,10 @@ header {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
+    }
+
+    .modal {
+        width: 30%;
+        left: 30%;
     }
 }

@@ -8,7 +8,11 @@
   <link rel="shortcut icon" href="TemplateData/favicon.ico">
   <link rel="stylesheet" href="TemplateData/style.css">
   <link rel="stylesheet" href="css/styles.css" />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="lightbox/dist/css/lightbox.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/web-animations-js@2.3.1/web-animations.min.js"></script>
   <script src="TemplateData/UnityProgress.js"></script>
   <script src="Build/UnityLoader.js"></script>
   <script>
@@ -25,7 +29,7 @@
       <a href="/about/">
         <h2>About</h2>
       </a>
-      <a href="/games/asteroidtrampoline">
+      <a class="active" href="/games/asteroidtrampoline">
         <h2>Asteroid Trampoline</h2>
       </a>
       <a href="/games/">
@@ -38,35 +42,48 @@
   </header>
   <div class="content">
     <h1>Asteroid Trampoline</h1>
+    <a id="jump" tabindex="0" href="#jumpcontent">Jump to Content</a>
     <div class="game-details">
-      <div class="description">
-          <p>Protect earth in this fast paced physics-based arcade game built in Unity3D!</p>
-          <p>Deflect asteroids hurtling towards the planet with a massive interplanetary space trampoline.</p>
-          <p>Bounce them into each other to destroy them and score points.</p>
+      <div id="jumpcontent" class="description">
+        <p>Protect earth in this fast paced physics-based arcade game built in Unity3D!</p>
+        <p>Deflect asteroids hurtling towards the planet with a massive interplanetary space trampoline.</p>
+        <p>Bounce them into each other to destroy them and score points.</p>
       </div>
       <!-- <h3>Screenshots</h3> -->
-      <div class="screenshots">
-        <div class="screenshot">
-            <img src="../img/asteroidtrampoline.jpg" alt="Main Menu" />
+      <div class="screenshots gallery">
+        <div class="screenshot item">
+          <div class="item-content">
+            <a href="../img/asteroidtrampoline.jpg" data-lightbox="screenshots" data-title="Menu"><img src="../img/asteroidtrampoline.jpg"
+                alt="Main Menu" /></a>
+          </div>
         </div>
-        <div class="screenshot">
-            <img src="../img/asteroidtrampoline2.jpg" alt="Deflect Asteroids!"/>
+        <div class="screenshot item">
+          <div class="item-content">
+            <a href="../img/asteroidtrampoline2.jpg" data-lightbox="screenshots" data-title="Game1"><img src="../img/asteroidtrampoline2.jpg"
+                alt="Deflect Asteroids!" /></a>
+          </div>
         </div>
-        <div class="screenshot">
-            <img src="../img/asteroidtrampoline3.jpg" alt="Use Bomb to Clear the Screen!"/>
+        <div class="screenshot item">
+          <div class="item-content">
+            <a href="../img/asteroidtrampoline3.jpg" data-lightbox="screenshots" data-title="Game2"><img src="../img/asteroidtrampoline3.jpg"
+                alt="Use Bomb to Clear the Screen!" /></a>
+          </div>
         </div>
       </div>
     </div>
     <h1>Demo</h1>
     <div class="game">
-        <div class="webgl-content">
-          <div id="gameContainer" style="width: 1280px; height: 720px"></div>
-          <div class="footer">
-            <div class="webgl-logo"></div>
-            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-            <div class="title">Asteroid Trampoline</div>
-          </div>
-        </div>  
+      <div class="mobileError">
+        <p>Sorry, this demo is not available on mobile!</p>
+      </div>
+      <div class="webgl-content">
+        <div id="gameContainer" style="width: 1280px; height: 720px"></div>
+        <div class="footer">
+          <div class="webgl-logo"></div>
+          <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+          <div class="title">Asteroid Trampoline</div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
