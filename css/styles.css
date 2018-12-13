@@ -29,7 +29,7 @@ header h1 {
 
 header {
     margin:0;
-    background-color: #4CAF50;
+    background-color: rgb(73, 165, 76) !important;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
@@ -110,7 +110,7 @@ header {
 }
 
 .active {
-    background-color: rgb(101, 226, 105);
+    border: 2px solid white;
 }
 
 #jump {
@@ -175,7 +175,7 @@ header {
 
     header {
         margin:0;
-        background-color: #4CAF50;
+        background-color: rgb(73, 165, 76) !important;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
